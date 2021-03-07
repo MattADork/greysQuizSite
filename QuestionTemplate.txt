@@ -1,0 +1,59 @@
+function evaluateQ_A() {
+  alex += ;
+  george += ;
+  izzie += ;
+  meredith += ;
+  yang -= ;
+  printQuestion_();
+}
+function evaluateQ_B() {
+  alex += ;
+  george += ;
+  izzie += ;
+  meredith -= ;
+  yang -= ;
+  printQuestion_();
+}
+function evaluateQ_C() {
+  alex += ;
+  george -= ;
+  izzie -= ;
+  meredith -= ;
+  yang += ;
+  printQuestion_();
+}
+function evaluateQ_D() {
+  alex -= ;
+  george -= ;
+  izzie -= ;
+  meredith -= ;
+  yang += ;
+  printQuestion_();
+}
+
+  if (question.textContent.includes("") && key.includes("a)")) {
+    evaluateQ_A();
+  }
+  if (question.textContent.includes("") && key.includes("b)")) {
+    evaluateQ_B();
+  }
+  if (question.textContent.includes("") && key.includes("c)")) {
+    evaluateQ_C();
+  }
+  if (question.textContent.includes("") && key.includes("d)")) {
+    evaluateQ_D();
+  }
+
+  function printQuestion_() {
+  answerA.textContent = "";
+  answerB.textContent = "";
+  answerC.textContent = "";
+  answerD.textContent = "";
+  question.textContent = "";
+}
+
+console.log(alex);
+console.log(george);
+console.log(izzie);
+console.log(meredith);
+console.log(yang);
