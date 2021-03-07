@@ -1,33 +1,33 @@
 function evaluateQ_A() {
-  alex += ;
-  george += ;
-  izzie += ;
-  meredith += ;
-  yang -= ;
+  alex ;
+  george ;
+  izzie ;
+  meredith ;
+  yang ;
   printQuestion_();
 }
 function evaluateQ_B() {
-  alex += ;
-  george += ;
-  izzie += ;
-  meredith -= ;
-  yang -= ;
+  alex ;
+  george ;
+  izzie ;
+  meredith ;
+  yang ;
   printQuestion_();
 }
 function evaluateQ_C() {
-  alex += ;
-  george -= ;
-  izzie -= ;
-  meredith -= ;
-  yang += ;
+  alex ;
+  george ;
+  izzie ;
+  meredith ;
+  yang ;
   printQuestion_();
 }
 function evaluateQ_D() {
-  alex -= ;
-  george -= ;
-  izzie -= ;
-  meredith -= ;
-  yang += ;
+  alex ;
+  george ;
+  izzie ;
+  meredith ;
+  yang ;
   printQuestion_();
 }
 
